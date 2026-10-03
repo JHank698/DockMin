@@ -3,6 +3,10 @@
 Windows 式 Dock 切换：点一下 Dock 图标把应用带到前台，**再点一次最小化到 Dock**；
 窗口已经全部收起时再点一次则把它们放回来。常驻后台的菜单栏工具，覆盖所有应用。
 
+> **这是一个只给自己用的本机工具**：本地 ad-hoc 签名、非沙盒，不适合提交 App Store；
+> 换机器或换安装路径都要重新授权（见下面「构建 & 运行」里的权限说明）。
+> 仓库：https://github.com/JHank698/DockMin
+
 ## 构建 & 运行
 
 ```bash
@@ -140,4 +144,3 @@ Sources/DockMin/
 └─ Diagnostics.swift  # --status / --dump-dock / --hit
 ```
 
-> 注意：本地 ad-hoc 签名、非沙盒。仅用于本机，不适合提交 App Store。
